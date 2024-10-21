@@ -3,14 +3,15 @@
 #include <stdio.h>
 
 int main(){
+    
+    printf("Enter operator ");
+    char op;
+    scanf("%c" , &op);
+
     printf("Enter two numbers\n");
     float a, b, ans;
     scanf("%f %f", &a, &b);
 
-    printf("Enter operator ");
-
-    char op;
-    scanf("%c" , &op);
 
     switch (op) {
     case '+':
