@@ -25,8 +25,22 @@
 23. Generate a Fibonacci series of N Numbers.
 24. Generate a Fibonacci series up to N Numbers.
 25. Generate a multiplication table for any given number.
-26. Generate result sheet for 5 students using for loop.
-27. To 40. - Nested for loop pattern programs. (Pyramids)
+26. Generate result sheet for 5 students using for loop.<hr>
+Pattern Questions:
+27. Simple pyramid
+28. Inverted pyramid 
+29. Right angles pyramid
+30. Inverted right angled pyramid 
+31. Inverted right angled pyramid ( right align)
+32. Inverted right angled pyramid ( left align)
+33. Diamond pattern 
+34. Hollow diamond pattern 
+35. Number pyramid 
+36. Inverted number pyramid 
+37. Floyd's triangle 
+38. Pascal' triangle 
+39. Binary pyramid 
+40. Hourglass pattern<hr>
 41. Multiply first 10 numbers using 1-D Array.
 42. Arrange a given numbers in ascending order.
 43. Arrange a given numbers in descending order.
