@@ -1,11 +1,7 @@
-// Online C compiler to run C program online
+// 3. Print your name in the center of the screen.
 #include <stdio.h>
 
 int main() {
-    printf("\t*\n");
-    printf("\t*\t*\n");
-    printf("\t*\t*\t*\n");
-    printf("\t*\t*\t*\t*\n");
-    printf("\t*\t*\t*\t*\t*\n");
+    printf("\t\t\t\tYour Name");
     return 0;
 }
