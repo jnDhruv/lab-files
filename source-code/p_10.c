@@ -1,4 +1,5 @@
-// Online C compiler to run C program online
+// 10. Swap 2 numbers without 3rd variable.
+
 #include <stdio.h>
 
 int main() {

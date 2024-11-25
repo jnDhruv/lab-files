@@ -1,4 +1,5 @@
 // 4. Print some patterns using '\n' & '\t'.
+
 #include <stdio.h>
 
 int main() {

@@ -1,6 +1,7 @@
 // 21. Check whether given number is palindrome.
 
 #include<stdio.h>
+
 int main() {
     int n, rev = 0, temp;
     printf("Enter a number: ");

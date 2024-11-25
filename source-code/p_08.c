@@ -1,4 +1,5 @@
-// Online C compiler to run C program online
+// 8. Find area of rectangle and circle.
+
 #include <stdio.h>
 
 int main() {

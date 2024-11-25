@@ -1,8 +1,8 @@
-#include<stdio.h>
-
 // 1. Print your name.
 
+#include<stdio.h>
+
 int main() {
-    printf("Dhruv Jain");
+    printf("put your name here");
     return 0;
 }

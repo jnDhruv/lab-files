@@ -1,9 +1,9 @@
-#include<stdio.h>
-
 // 2. Print full name in 2 lines.
 
+#include<stdio.h>
+
 int main() {
-    printf("Dhruv\n");
-    printf("Jain");
+    printf("FirstName\n");
+    printf("LastName");
     return 0;
 }

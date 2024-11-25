@@ -1,6 +1,7 @@
-//code for prac - 14 
-//Generate student’s result based on percentage.
+// 14. Generate student’s result based on percentage.
+
 #include<stdio.h>
+
 int main() {
     float percent;
     printf("Enter your percentage: ");

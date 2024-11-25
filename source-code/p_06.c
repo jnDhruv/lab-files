@@ -1,6 +1,6 @@
-#include<stdio.h>
-
 // 6. Add 2 numbers.
+
+#include<stdio.h>
 
 int main() {
     int a, b, sum;

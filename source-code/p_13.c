@@ -1,8 +1,8 @@
-// Online C compiler to run C program online
+// 13. Find the maximum of 3 numbers using else if else ladder.
+
 #include <stdio.h>
 
 int main() {
-    // Write C code here
     int a, b, c;
     printf("Enter three numbers: ");
     scanf("%d %d %d",&a,&b,&c);

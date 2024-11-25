@@ -1,6 +1,6 @@
-#include<stdio.h>
-
 // 7. Find average of 3 numbers.
+
+#include<stdio.h>
 
 int main() {
     float a, b, c, avg;

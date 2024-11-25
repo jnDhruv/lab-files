@@ -1,4 +1,5 @@
-// Online C compiler to run C program online
+// 12. Find the maximum of 3 numbers using nested if.
+
 #include <stdio.h>
 
 int main() {

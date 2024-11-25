@@ -1,4 +1,5 @@
 // 17. Find area of rectangle, circle and square using switch case.
+
 #include<stdio.h>
 
 int main() {

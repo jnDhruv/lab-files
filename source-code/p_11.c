@@ -1,4 +1,5 @@
-// Online C compiler to run C program online
+// 11. Find the maximum of 2 numbers.
+
 #include <stdio.h>
 
 int main() {

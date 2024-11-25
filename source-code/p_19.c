@@ -1,4 +1,5 @@
 // 19. Print the sum of odd and even numbers between 51 and 550.
+
 #include<stdio.h>
 
 int main() {
