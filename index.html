@@ -21,6 +21,7 @@
         body {
             margin: 0;
             margin-top: 90px;
+            margin-bottom: 30px;
         }
 
         header {
@@ -83,6 +84,30 @@
             right: 50px;
             bottom: 50px;
         }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            height: auto;
+            color: white;
+            padding: 0 10px;
+
+            & p {
+                margin: 5px;
+            }
+
+            & a {
+                color: white;
+            }
+        }
+
     </style>
 </head>
 
@@ -168,6 +193,14 @@
         <li id="54" onclick="showCode(this.id)">Swap 2 numbers using Pass by Reference.</li>
     </ol>
     <embed id="display-code" class="code-snippet-box" src="">
+    <footer class="footer">
+        <div class="authors">
+            <p>
+                Contributors: <a href="https://github.com/prathamrathore115">Pratham Rathore</a> 
+                &middot; <a href="https://github.com/jnDhruv">Dhruv Jain</a>
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
