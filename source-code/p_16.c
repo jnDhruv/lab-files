@@ -36,3 +36,12 @@ int main(){
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter operator *
+Enter two numbers
+12 14
+168.000000
+*/

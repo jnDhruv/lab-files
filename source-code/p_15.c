@@ -34,3 +34,11 @@ int main()
     printf("money for %d units consumption is %.2f", units, money);
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter number of units consumed
+156
+money for 156 units consumption is 262.00
+*/

@@ -15,3 +15,10 @@ int main() {
     printf("Sum of Odd numbers: %d", sumOdd);
     return 0;
 }
+
+/*
+OUTPUT:
+
+Sum of Even numbers: 75250
+Sum of Odd numbers: 75000
+*/

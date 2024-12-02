@@ -13,3 +13,9 @@ int main(){
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+The Sum Of First 10 numbers is = 55
+*/

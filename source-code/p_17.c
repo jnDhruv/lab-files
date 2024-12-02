@@ -34,3 +34,14 @@ int main() {
     printf("Area = %.2f",area);
     return 0;
 }
+
+/*
+OUTPUT:
+
+1: Area of Rectangle
+2: Area of Circle
+3: Area of Square
+3
+Enter side of square: 4
+Area = 16.00
+*/

@@ -39,3 +39,10 @@ int main()
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+370
+The Number Is Armstrong Number
+*/

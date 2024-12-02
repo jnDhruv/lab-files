@@ -11,7 +11,7 @@
 int main(){
 
     int rows;
-    printf("Enter Numbers Of Rows : ");
+    printf("Enter Number Of Rows : ");
     scanf("%d", &rows);
 
     for (int i = 0; i < rows; i++)
@@ -22,10 +22,18 @@ int main(){
         }
         printf("\n");
     }
-    
-
-
-
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter Number Of Rows : 6
+******
+*****
+****
+***
+**
+*
+*/

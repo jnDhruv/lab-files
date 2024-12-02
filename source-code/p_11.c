@@ -19,3 +19,10 @@ int main() {
     
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter two numbers: 12 15
+The maximum value from 12 and 15 is: 15
+*/

@@ -21,3 +21,10 @@ int main() {
         printf("You failed.");
     }
 }
+
+/*
+OUTPUT:
+
+Enter your percentage: 92
+Your Grade is A
+*/

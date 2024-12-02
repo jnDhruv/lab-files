@@ -49,3 +49,20 @@ int main(){
    }
    return 0;
 }
+
+/*
+OUTPUT:
+
+Enter Number Of Rows : 6
+     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+*/

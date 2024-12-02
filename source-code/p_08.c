@@ -23,3 +23,16 @@ int main() {
     printf("\nArea of the circle is: %.2f",areaCircle);
     return 0;
 }
+
+/* 
+OUTPUT:
+
+Enter length of rectangle: 5
+Enter width of rectangle: 9
+
+Area of the rectangle is: 45.00
+
+Enter radius of circle: 4
+
+Area of the circle is: 50.24
+*/

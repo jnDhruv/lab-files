@@ -24,3 +24,10 @@ int main() {
     }
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter the term you want: 15
+610
+*/

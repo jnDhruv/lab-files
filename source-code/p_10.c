@@ -16,3 +16,11 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter two numbers:12 15
+Before swapping: a = 12, b = 15
+After swapping: a = 15, b = 12
+*/

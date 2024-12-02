@@ -15,3 +15,15 @@ int main() {
     }
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter number of rows: 6
+*
+**
+***
+****
+*****
+******
+*/

@@ -22,3 +22,10 @@ int main() {
     }
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter a number: 121
+Number is Palindrome
+*/

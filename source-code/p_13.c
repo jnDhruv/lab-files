@@ -16,6 +16,13 @@ int main() {
     } else {
         max = c;
     }
-    printf("%d",max);
+    printf("The Maximum Number Is = %d",max);
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter three numbers: 12 14 16
+The Maximum Number Is = 16
+*/

@@ -24,3 +24,11 @@ int main(){
 
     return 0;
 }
+
+/*
+OUTPUT:
+
+Enter The Number
+15
+51
+*/
