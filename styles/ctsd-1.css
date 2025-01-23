@@ -1,0 +1,32 @@
+ol {
+    list-style: decimal inside;
+    width: 40%;
+    padding-left: 15px;
+}
+
+li {
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, text-decoration 0.3s;
+
+    &:hover {
+        background-color: rgb(230, 230, 230);
+    }
+}
+
+.selected {
+    background-color: rgb(210, 210, 210);
+    text-decoration: underline;
+}
+
+.code-snippet-box {
+    position: fixed;
+    width: 40vw;
+    height: 80vh;
+    top: 90px;
+    right: 50px;
+    bottom: 50px;
+}
