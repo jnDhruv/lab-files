@@ -23,77 +23,64 @@
         <img src="icons/github.svg" alt="Github">
         </a>
     </header>
-    <script>
-        function showCode(qNo) {
-            let filePath = "source-code/ctsd-1/p_" + qNo + ".c";
-            document.getElementById('display-code').src = filePath;
-
-            let selected = document.getElementsByClassName("selected");
-
-            if (selected.length != 0) {
-                selected[0].className = "";
-            }
-            document.getElementById(qNo).className = "selected";
-        }
-    </script>
     <ol>
-        <li id="01" onclick="showCode(this.id)">Print your name.</li>
-        <li id="02" onclick="showCode(this.id)">Print full name in 2 lines.</li>
-        <li id="03" onclick="showCode(this.id)">Print your name in the center of the screen.</li>
-        <li id="04" onclick="showCode(this.id)">Print some patterns using '\n' & '\t'.</li>
-        <li id="05" onclick="showCode(this.id)">Print some patterns using '\n' & '\t'.</li>
-        <li id="06" onclick="showCode(this.id)">Add 2 numbers.</li>
-        <li id="07" onclick="showCode(this.id)">Find average of 3 numbers.</li>
-        <li id="08" onclick="showCode(this.id)">Find area of rectangle and circle.</li>
-        <li id="09" onclick="showCode(this.id)">Swap 2 numbers using 3rd variable.</li>
-        <li id="10" onclick="showCode(this.id)">Swap 2 numbers without 3rd variable.</li>
-        <li id="11" onclick="showCode(this.id)">Find the maximum of 2 numbers.</li>
-        <li id="12" onclick="showCode(this.id)">Find the maximum of 3 numbers using nested if.</li>
-        <li id="13" onclick="showCode(this.id)">Find the maximum of 3 numbers using else if else ladder.</li>
-        <li id="14" onclick="showCode(this.id)">Generate student's result based on percentage.</li>
-        <li id="15" onclick="showCode(this.id)">Generate electricity bill based on usage of units.</li>
-        <li id="16" onclick="showCode(this.id)">Create calculator using switch case.</li>
-        <li id="17" onclick="showCode(this.id)">Find area of rectangle, circle and square using switch case.</li>
-        <li id="18" onclick="showCode(this.id)">Print the sum of first 10 numbers.</li>
-        <li id="19" onclick="showCode(this.id)">Print the sum of odd and even numbers between 51 and 550.</li>
-        <li id="20" onclick="showCode(this.id)">Reverse a given number.</li>
-        <li id="21" onclick="showCode(this.id)">Check whether given number is palindrome.</li>
-        <li id="22" onclick="showCode(this.id)">Check whether given number is Armstrong.</li>
-        <li id="23" onclick="showCode(this.id)">Generate a Fibonacci series of N Numbers.</li>
-        <li id="24" onclick="showCode(this.id)">Generate a Fibonacci series up to N Numbers.</li>
-        <li id="25" onclick="showCode(this.id)">Generate a multiplication table for any given number.</li>
-        <li id="26" onclick="showCode(this.id)">Generate result sheet for 5 students using for loop.</li>
+        <li id="01">Print your name.</li>
+        <li id="02">Print full name in 2 lines.</li>
+        <li id="03">Print your name in the center of the screen.</li>
+        <li id="04">Print some patterns using '\n' & '\t'.</li>
+        <li id="05">Print some patterns using '\n' & '\t'.</li>
+        <li id="06">Add 2 numbers.</li>
+        <li id="07">Find average of 3 numbers.</li>
+        <li id="08">Find area of rectangle and circle.</li>
+        <li id="09">Swap 2 numbers using 3rd variable.</li>
+        <li id="10">Swap 2 numbers without 3rd variable.</li>
+        <li id="11">Find the maximum of 2 numbers.</li>
+        <li id="12">Find the maximum of 3 numbers using nested if.</li>
+        <li id="13">Find the maximum of 3 numbers using else if else ladder.</li>
+        <li id="14">Generate student's result based on percentage.</li>
+        <li id="15">Generate electricity bill based on usage of units.</li>
+        <li id="16">Create calculator using switch case.</li>
+        <li id="17">Find area of rectangle, circle and square using switch case.</li>
+        <li id="18">Print the sum of first 10 numbers.</li>
+        <li id="19">Print the sum of odd and even numbers between 51 and 550.</li>
+        <li id="20">Reverse a given number.</li>
+        <li id="21">Check whether given number is palindrome.</li>
+        <li id="22">Check whether given number is Armstrong.</li>
+        <li id="23">Generate a Fibonacci series of N Numbers.</li>
+        <li id="24">Generate a Fibonacci series up to N Numbers.</li>
+        <li id="25">Generate a multiplication table for any given number.</li>
+        <li id="26">Generate result sheet for 5 students using for loop.</li>
         <hr>
         <h3>Pattern Questions</h3>
-        <li id="27" onclick="showCode(this.id)">Simple pyramid</li>
-        <li id="28" onclick="showCode(this.id)">Inverted pyramid </li>
-        <li id="29" onclick="showCode(this.id)">Right angles pyramid</li>
-        <li id="30" onclick="showCode(this.id)">Inverted right angled pyramid </li>
-        <li id="31" onclick="showCode(this.id)">Inverted right angled pyramid ( right align)</li>
-        <li id="32" onclick="showCode(this.id)">Inverted right angled pyramid ( left align)</li>
-        <li id="33" onclick="showCode(this.id)">Diamond pattern </li>
-        <li id="34" onclick="showCode(this.id)">Hollow diamond pattern </li>
-        <li id="35" onclick="showCode(this.id)">Number pyramid </li>
-        <li id="36" onclick="showCode(this.id)">Inverted number pyramid </li>
-        <li id="37" onclick="showCode(this.id)">Floyd's triangle </li>
-        <li id="38" onclick="showCode(this.id)">Pascal' triangle </li>
-        <li id="39" onclick="showCode(this.id)">Binary pyramid </li>
-        <li id="40" onclick="showCode(this.id)">Hourglass pattern</li>
+        <li id="27">Simple pyramid</li>
+        <li id="28">Inverted pyramid </li>
+        <li id="29">Right angles pyramid</li>
+        <li id="30">Inverted right angled pyramid </li>
+        <li id="31">Inverted right angled pyramid ( right align)</li>
+        <li id="32">Inverted right angled pyramid ( left align)</li>
+        <li id="33">Diamond pattern </li>
+        <li id="34">Hollow diamond pattern </li>
+        <li id="35">Number pyramid </li>
+        <li id="36">Inverted number pyramid </li>
+        <li id="37">Floyd's triangle </li>
+        <li id="38">Pascal' triangle </li>
+        <li id="39">Binary pyramid </li>
+        <li id="40">Hourglass pattern</li>
         <hr>
-        <li id="41" onclick="showCode(this.id)">Multiply first 10 numbers using 1-D Array.</li>
-        <li id="42" onclick="showCode(this.id)">Arrange a given numbers in ascending order.</li>
-        <li id="43" onclick="showCode(this.id)">Arrange a given numbers in descending order.</li>
-        <li id="44" onclick="showCode(this.id)">Reverse the order of numbers.</li>
-        <li id="45" onclick="showCode(this.id)">Add 2 Matrix.</li>
-        <li id="46" onclick="showCode(this.id)">Multiply 2 Matrix.</li>
-        <li id="47" onclick="showCode(this.id)">Count total number of words in a string.</li>
-        <li id="48" onclick="showCode(this.id)">Find the length of a string.</li>
-        <li id="49" onclick="showCode(this.id)">Toggling of string.</li>
-        <li id="50" onclick="showCode(this.id)">Check whether given string is palindrome.</li>
-        <li id="51" onclick="showCode(this.id)">Create a calculator using UDF.</li>
-        <li id="52" onclick="showCode(this.id)">Find area of rectangle, square and circle using UDF.</li>
-        <li id="53" onclick="showCode(this.id)">Find Factorial of a number using Recursion.</li>
-        <li id="54" onclick="showCode(this.id)">Swap 2 numbers using Pass by Reference.</li>
+        <li id="41">Multiply first 10 numbers using 1-D Array.</li>
+        <li id="42">Arrange a given numbers in ascending order.</li>
+        <li id="43">Arrange a given numbers in descending order.</li>
+        <li id="44">Reverse the order of numbers.</li>
+        <li id="45">Add 2 Matrix.</li>
+        <li id="46">Multiply 2 Matrix.</li>
+        <li id="47">Count total number of words in a string.</li>
+        <li id="48">Find the length of a string.</li>
+        <li id="49">Toggling of string.</li>
+        <li id="50">Check whether given string is palindrome.</li>
+        <li id="51">Create a calculator using UDF.</li>
+        <li id="52">Find area of rectangle, square and circle using UDF.</li>
+        <li id="53">Find Factorial of a number using Recursion.</li>
+        <li id="54">Swap 2 numbers using Pass by Reference.</li>
     </ol>
     <embed id="display-code" class="code-snippet-box" src="">
     <footer class="footer">
@@ -104,6 +91,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="scripts/ctsd-1.js"></script>
 </body>
 
 </html>
