@@ -1,3 +1,4 @@
+### List of practicals in 2nd Semester:
 - Practical 1
     1. Write a c program to increase or decrease the existing size of an 1D array.
     2. Write a c program on 2D array to Increase & Decrease
