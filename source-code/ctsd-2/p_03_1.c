@@ -3,7 +3,6 @@ Write a program to demonstrate how to access a variable using its pointer
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
     int a;
