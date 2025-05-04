@@ -3,7 +3,6 @@ Write a program to demonstrate accessing array elements using pointers.
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
     int n;

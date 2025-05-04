@@ -3,7 +3,6 @@ Write a program to swap two numbers using pointers.
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
     int a,b;
